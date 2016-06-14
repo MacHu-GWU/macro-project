@@ -9,6 +9,7 @@
 
 Welcome to macro Documentation
 ===============================================================================
+macro provides very user friendly syntax to program your keyboard and mouse automate script.
 
 
 **Quick Links**
