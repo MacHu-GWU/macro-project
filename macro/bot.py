@@ -51,7 +51,7 @@ class Bot(object):
         "l_shift": self.k.shift_l_key,
         "r_shift": self.k.shift_r_key,
         "tab": self.k.tab_key,
-        "space": self.k.space,
+        "space": self.k.space_key,
         "enter": self.k.enter_key,
         "back": self.k.backspace_key,
         "backspace": self.k.backspace_key,
@@ -94,7 +94,7 @@ class Bot(object):
             "l_shift": self.k.shift_l_key,
             "r_shift": self.k.shift_r_key,
             "tab": self.k.tab_key,
-            "space": self.k.space,
+            "space": self.k.space_key,
             "enter": self.k.enter_key,
             "back": self.k.backspace_key,
             "backspace": self.k.backspace_key,
@@ -322,7 +322,7 @@ class Bot(object):
         按空格键 n 次。
         """
         self.delay(pre_dl)
-        self.k.tap_key(self.k.space, n)
+        self.k.tap_key(self.k.space_key, n)
         self.delay(post_dl)
 
     def fn(self, i, n=1, interval=0, pre_dl=None, post_dl=None):
